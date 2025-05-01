@@ -38,11 +38,11 @@ public class ServerConfig extends ConfigBase {
         super(builder);
         itemPipeSpeed = builder
                 .comment("The speed at which items are transferred", "A value of 1 means every tick")
-                .defineInRange("item_pipe.speed.no_upgrade", 20, 1, Integer.MAX_VALUE);
+                .defineInRange("item_pipe.speed.no_upgrade", 40, 1, Integer.MAX_VALUE);
 
         itemPipeAmount = builder
                 .comment("The amount of items transferred")
-                .defineInRange("item_pipe.amount.no_upgrade", 4, 1, Integer.MAX_VALUE);
+                .defineInRange("item_pipe.amount.no_upgrade", 8, 1, Integer.MAX_VALUE);
 
         itemPipeSpeedBasic = builder
                 .comment("The speed at which items are transferred", "A value of 1 means every tick")
