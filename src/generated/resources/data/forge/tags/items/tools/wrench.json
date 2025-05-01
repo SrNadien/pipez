@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "pipez:wrench"
+    "pipez:wrench",
+    "create:wrench"
   ]
 }
